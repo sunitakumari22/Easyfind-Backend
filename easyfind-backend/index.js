@@ -1,13 +1,28 @@
 const express =require('express');
-const fs=require('fs')
-const users =require('./assets/user.json')
-const doctors =require('./assets/doctors.json')
+const fs=require('fs');
+const users =require('./assets/user.json');
+const doctors =require('./assets/doctors.json');
 const app=express();
 
 
 const PORT =8000;
 
-app.use(express.urlencoded({extended:false}))
+app.use(express.urlencoded({extended:false}));
+
+app.use((req,res,next)=>{
+    console.log("hello from middleware 1");
+     //  return res.json({msg:"hello from Middleware"})
+    next();
+   
+})
+app.use((req,res,next)=>{
+    console.log("hello from middleware 2");
+     return res.end('Hey');
+    
+   
+})
+
+
 app.get('/api/users',(req,res)=>{
     return res.json(users)
 })
