@@ -20,9 +20,23 @@
 
 const mongoose=require('mongoose');
 
+
 const main= async()=>{
     await mongoose.connect("mongodb://localhost:27017/easyfind-backend");
-     
+     const userSch=new mongoose.Schema({
+        name:String,
+        email:String,
+        mobile:String,
+        password:String
+     });
+
+ const usersModel=mongoose.model('users',userSch);
+ let data =new   usersModel({name:"siya",email:'siya@gmail.com'})  ;
+ let result = await data.save();
+ console.log(result);
+ 
 
 }
+
+main()
 
