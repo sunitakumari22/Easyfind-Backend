@@ -1,0 +1,819 @@
+
+
+[ 
+
+{
+    "name": "Dr. Sandeep Kumar",
+    "specialization": "Surgical Oncology",
+    "experience": "5 years",
+    "hospital": "HCG Abdur Razzaque Ansari Cancer Centre",
+    "location": "Ranchi, Jharkhand",
+    "rating": 4.5,
+    "phone": "+91-9876543210",
+    "image": "./assets/images/doctors.jpg"
+
+    
+},
+{
+    "name": "Dr. Sandeep Kumar",
+    "specialization": "Chest Specialists",
+    "experience": "5 years",
+    "hospital": "HCG Abdur Razzaque Ansari Cancer Centre",
+    "location": "Ranchi, Jharkhand",
+    "id": "eba6",
+    "rating": 4.3,
+    "phone": "+91-9876543211",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.raleighmedicalgroup.com%2Fblog%2Fwhat-do-internal-medicine-doctors-treat%2F&psig=AOvVaw3q6GaKqhL1CSlHyWvavr_D&ust=1741241700886000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjJy8il8osDFQAAAAAdAAAAABAE"
+},
+{
+    "name": "Dr. Abhishek Kumar",
+    "specialization": "Chest Specialists",
+    "experience": "5 years",
+    "hospital": "HCG Abdur Razzaque Ansari Cancer Centre",
+    "location": "Ranchi, Jharkhand",
+    "rating": 4.2,
+    "phone": "+91-9876543212",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.raleighmedicalgroup.com%2Fblog%2Fwhat-do-internal-medicine-doctors-treat%2F&psig=AOvVaw3q6GaKqhL1CSlHyWvavr_D&ust=1741241700886000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjJy8il8osDFQAAAAAdAAAAABAE"
+},
+{
+    "name": "Dr. Pradeep Kumar",
+    "specialization": "Chest Specialists",
+    "experience": "5 years",
+    "hospital": "HCG Abdur Razzaque Ansari Cancer Centre",
+    "location": "Ranchi, Jharkhand",
+    "rating": 4.1,
+    "phone": "+91-9876543213",
+    "image": "https://example.com/images/dr-pradeep-kumar.jpg"
+},
+{
+    "name": "Dr. Abhishek Kumar",
+    "specialization": "Pediatric Oncology",
+    "experience": "5 years",
+    "hospital": "HCG Abdur Razzaque Ansari Cancer Centre",
+    "location": "Ranchi, Jharkhand",
+    "rating": 4.6,
+    "phone": "+91-9876543214",
+    "image": "https://example.com/images/dr-abhishek-kumar-pediatric.jpg"
+},
+{
+    "name": "Dr. Chandrashekhar Prasad Singh",
+    "specialization": "Medical Oncology",
+    "experience": "12 years",
+    "hospital": "HCG Abdur Razzaque Ansari Cancer Centre",
+    "location": "Ranchi, Jharkhand",
+    "rating": 4.7,
+    "phone": "+91-9876543215",
+    "image": "https://example.com/images/dr-chandrashekhar-prasad.jpg"
+},
+{
+    "name": "Dr. Aftab Alam Ansari",
+    "specialization": "Chest Specialists",
+    "experience": "17 years",
+    "hospital": "HCG Abdur Razzaque Ansari Cancer Centre",
+    "location": "Ranchi, Jharkhand",
+    "rating": 4.8,
+    "phone": "+91-9876543216",
+    "image": "https://example.com/images/dr-aftab-alam.jpg"
+},
+{
+    "name": "Dr. Prince Gupta",
+    "specialization": "Plastic Surgery",
+    "experience": "8 years",
+    "hospital": "HCG Abdur Razzaque Ansari Cancer Centre",
+    "location": "Ranchi, Jharkhand",
+    "rating": 4.6,
+    "phone": "+91-9876543217",
+    "image": "https://example.com/images/dr-prince-gupta.jpg"
+},
+{
+    "name": "Dr. Ganesh Agarwal",
+    "specialization": "Chest Specialists",
+    "experience": "8 years",
+    "hospital": "HCG Abdur Razzaque Ansari Cancer Centre",
+    "location": "Ranchi, Jharkhand",
+    "rating": 4.3,
+    "phone": "+91-9876543218",
+    "image": "https://example.com/images/dr-ganesh-agarwal-chest.jpg"
+},
+{
+    "name": "Dr. Ganesh Agarwal",
+    "specialization": "Surgical Oncology",
+    "experience": "8 years",
+    "hospital": "HCG Abdur Razzaque Ansari Cancer Centre",
+    "location": "Ranchi, Jharkhand",
+    "rating": 4.4,
+    "phone": "+91-9876543219",
+    "image": "https://example.com/images/dr-ganesh-agarwal-oncology.jpg"
+},
+{
+    "name": "Dr. Neeru Jyotsna",
+    "specialization": "Nuclear Medicine",
+    "experience": "5 years",
+    "hospital": "HCG Abdur Razzaque Ansari Cancer Centre",
+    "location": "Ranchi, Jharkhand",
+    "rating": 4.5,
+    "phone": "+91-9876543220",
+    "image": "https://example.com/images/dr-neeru-jyotsna.jpg"
+},
+{
+    "name": "Dr. Bharti Kashyap",
+    "specialization": "Ophthalmology",
+    "experience": "30+ years",
+    "hospital": "Kashyap Memorial Eye Hospital",
+    "location": "Ranchi, Jharkhand",
+    "rating": 4.8,
+    "phone": "+91-9876543221",
+    "image": "https://example.com/images/dr-bharti-kashyap.jpg"
+},
+{
+    "name": "Dr. Rajesh Kumar",
+    "specialization": "Chest Specialist (Pulmonology)",
+    "experience": "15+ years",
+    "hospital": "RIMS Ranchi",
+    "location": "Ranchi, Jharkhand",
+    "rating": 4.6,
+    "phone": "+91-9876543222",
+    "image": "https://example.com/images/dr-rajesh-kumar.jpg"
+},
+{
+    "name": "Dr. Ajay Kumar",
+    "specialization": "Ayurvedic Doctors",
+    "experience": "20+ years",
+    "hospital": "Medanta Hospital",
+    "location": "Ranchi, Jharkhand",
+    "rating": 4.7,
+    "phone": "+91-9876543223",
+    "image": "https://example.com/images/dr-ajay-kumar-ayurvedic.jpg"
+},
+{
+    "name": "Dr. Anupama Sinha",
+    "specialization": "Ayurvedic Doctors",
+    "experience": "18+ years",
+    "hospital": "Santevita Hospital",
+    "location": "Ranchi, Jharkhand",
+    "rating": 4.5,
+    "phone": "+91-9876543224",
+    "image": "https://example.com/images/dr-anupama-sinha.jpg"
+},
+{
+    "name": "Dr. Ajay Kumar",
+    "specialization": "Cardiologist",
+    "experience": "20+ years",
+    "hospital": "Medanta Hospital",
+    "location": "Ranchi, Jharkhand",
+    "rating": 4.9,
+    "phone": "+91-9876543225",
+    "image": "https://example.com/images/dr-ajay-kumar-cardiologist.jpg"
+},
+{
+    "name": "Dr. Manoj Kumar",
+    "specialization": "Orthopedic Surgeon",
+    "experience": "20+ years",
+    "hospital": "Raj Hospital",
+    "location": "Ranchi, Jharkhand",
+    "rating": 4.7,
+    "phone": "+91-9876543226",
+    "image": "https://example.com/images/dr-manoj-kumar.jpg"
+},
+{
+    "name": "Dr. Anil Sharma",
+    "specialization": "Ayurvedic Doctor",
+    "experience": "15 years",
+    "hospital": "Ayush Wellness Clinic",
+    "location": "Delhi, India",
+    "rating": 4.3,
+    "phone": "+91-9876543227",
+    "image": "https://example.com/images/dr-anil-sharma.jpg"
+},
+{
+    "name": "Dr. Priya Mehta",
+    "specialization": "Chest Specialist",
+    "experience": "10 years",
+    "hospital": "Apollo Hospital",
+    "location": "Mumbai, Maharashtra",
+    "rating": 4.4,
+    "phone": "+91-9876543228",
+    "image": "https://example.com/images/dr-priya-mehta.jpg"
+},
+{
+    "name": "Dr. Ramesh Gupta",
+    "specialization": "Dentist",
+    "experience": "12 years",
+    "hospital": "Smile Dental Care",
+    "location": "Bangalore, Karnataka",
+    "rating": 4.6,
+    "phone": "+91-9876543229",
+    "image": "https://example.com/images/dr-ramesh-gupta.jpg"
+},
+{
+    "name": "Dr. Poonam Verma",
+    "specialization": "Dietitian",
+    "experience": "8 years",
+    "hospital": "HealthFirst Clinic",
+    "location": "Chennai, Tamil Nadu",
+    "rating": 4.5,
+    "phone": "+91-9876543230",
+    "image": "https://example.com/images/dr-poonam-verma.jpg"
+},
+{
+    "name": "Dr. Vinayak Rao",
+    "specialization": "Gastroenterologist",
+    "experience": "18 years",
+    "hospital": "Fortis Hospital",
+    "location": "Hyderabad, Telangana",
+    "rating": 4.7,
+    "phone": "+91-9876543231",
+    "image": "https://example.com/images/dr-vinayak-rao.jpg"
+},
+{
+    "name": "Dr. Suman Tiwari",
+    "specialization": "Homeopathic Doctor",
+    "experience": "14 years",
+    "hospital": "Nature Cure Homeopathy",
+    "location": "Lucknow, Uttar Pradesh",
+    "rating": 4.5,
+    "phone": "+91-9876543232",
+    "image": "https://example.com/images/dr-suman-tiwari.jpg"
+},
+{
+    "name": "Dr. Arvind Kumar",
+    "specialization": "Neurosurgeon",
+    "experience": "20 years",
+    "hospital": "AIIMS",
+    "location": "New Delhi, India",
+    "rating": 4.9,
+    "phone": "+91-9876543233",
+    "image": "https://example.com/images/dr-arvind-kumar.jpg"
+},
+    {
+        "name": "Dr. Neha Kapoor",
+        "specialization": "Ophthalmologist",
+        "experience": "11 years",
+        "hospital": "Vision Care Hospital",
+        "location": "Pune, Maharashtra",
+        "rating": 4.7,
+        "phone": "+91 9876543201",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Vikram Singh",
+        "specialization": "Physiotherapist",
+        "experience": "9 years",
+        "hospital": "Rehab Plus",
+        "location": "Jaipur, Rajasthan",
+        "rating": 4.5,
+        "phone": "+91 9876543202",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Ananya Mishra",
+        "specialization": "Psychiatrist",
+        "experience": "13 years",
+        "hospital": "Mind Wellness Clinic",
+        "location": "Kolkata, West Bengal",
+        "rating": 4.8,
+        "phone": "+91 9876543203",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Shreya Patil",
+        "specialization": "Skin & Hair Doctor",
+        "experience": "11 years",
+        "hospital": "ClearSkin Clinic",
+        "location": "Pune, Maharashtra",
+        "rating": 4.6,
+        "phone": "+91 9876543204",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Manish Khanna",
+        "specialization": "Dentist",
+        "experience": "15 years",
+        "hospital": "EndoCare Hospital",
+        "location": "Ahmedabad, Gujarat",
+        "rating": 4.4,
+        "phone": "+91 9876543205",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Anuj Bansal",
+        "specialization": "Dentist",
+        "experience": "18 years",
+        "hospital": "Max Super Speciality Hospital",
+        "location": "New Delhi, India",
+        "rating": 4.7,
+        "phone": "+91 9876543206",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Priyanka Taneja",
+        "specialization": "Bone & Joints Doctor",
+        "experience": "14 years",
+        "hospital": "OrthoLife Clinic",
+        "location": "Chandigarh, Punjab",
+        "rating": 4.3,
+        "phone": "+91 9876543207",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Kavita Sinha",
+        "specialization": "Child Specialist Doctor",
+        "experience": "10 years",
+        "hospital": "Sunshine Children's Hospital",
+        "location": "Patna, Bihar",
+        "rating": 4.6,
+        "phone": "+91 9876543208",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Rajeev Sharma",
+        "specialization": "Dermatologist",
+        "experience": "12 years",
+        "hospital": "DermaCare Skin Clinic",
+        "location": "Indore, Madhya Pradesh",
+        "rating": 4.5,
+        "phone": "+91 9876543209",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Alok Verma",
+        "specialization": "ENT Specialist",
+        "experience": "17 years",
+        "hospital": "Apollo ENT Centre",
+        "location": "Lucknow, Uttar Pradesh",
+        "rating": 4.7,
+        "phone": "+91 9876543210",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Sneha Reddy",
+        "specialization": "General Physician",
+        "experience": "9 years",
+        "hospital": "CareWell Clinic",
+        "location": "Hyderabad, Telangana",
+        "rating": 4.3,
+        "phone": "+91 9876543211",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Amit Thakur",
+        "specialization": "Neonatologist",
+        "experience": "8 years",
+        "hospital": "Mother & Child Care Hospital",
+        "location": "Jaipur, Rajasthan",
+        "rating": 4.6,
+        "phone": "+91 9876543212",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Pooja Nair",
+        "specialization": "Oncologist",
+        "experience": "16 years",
+        "hospital": "Tata Memorial Hospital",
+        "location": "Mumbai, Maharashtra",
+        "rating": 4.8,
+        "phone": "+91 9876543213",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Deepak Mehra",
+        "specialization": "Orthopaedic Doctor",
+        "experience": "20 years",
+        "hospital": "OrthoPlus Hospital",
+        "location": "Delhi, India",
+        "rating": 4.7,
+        "phone": "+91 9876543214",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Meenakshi Rao",
+        "specialization": "Physiotherapist For Home Visit",
+        "experience": "7 years",
+        "hospital": "FlexCare Physiotherapy",
+        "location": "Bangalore, Karnataka",
+        "rating": 4.5,
+        "phone": "+91 9876543215",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Vishal Kapoor",
+        "specialization": "Psychologist",
+        "experience": "11 years",
+        "hospital": "MindMatters Clinic",
+        "location": "Kolkata, West Bengal",
+        "rating": 4.6,
+        "phone": "+91 9876543216",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Ankita Chauhan",
+        "specialization": "Skin Doctor",
+        "experience": "13 years",
+        "hospital": "Glow & Shine Skin Clinic",
+        "location": "Surat, Gujarat",
+        "rating": 4.7,
+        "phone": "+91 9876543217",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Arjun Prasad",
+        "specialization": "Trichologist",
+        "experience": "10 years",
+        "hospital": "HairCare Speciality Clinic",
+        "location": "Nagpur, Maharashtra",
+        "rating": 4.4,
+        "phone": "+91 9876543218",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Neeta Joshi",
+        "specialization": "Veterinary Doctor",
+        "experience": "9 years",
+        "hospital": "Happy Paws Pet Clinic",
+        "location": "Pune, Maharashtra",
+        "rating": 4.5,
+        "phone": "+91 9876543219",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Sanjay Nair",
+        "specialization": "Cardiologist",
+        "experience": "22 years",
+        "hospital": "Fortis Heart Institute",
+        "location": "Mumbai, Maharashtra",
+        "rating": 4.9,
+        "phone": "+91 9876543220",
+        "image": "https://via.placeholder.com/150?text=Doctor"
+    },
+    {
+        "name": "Dr. Radhika Menon",
+        "specialization": "Cosmetic Surgeon",
+        "experience": "14 years",
+        "hospital": "Rejuvenate Cosmetic Clinic",
+        "location": "Chennai, Tamil Nadu",
+        "rating": 4.6,
+        "phone": "+91-9876543210",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Devashish Roy",
+        "specialization": "Diabetologist",
+        "experience": "12 years",
+        "hospital": "SugarCare Diabetes Clinic",
+        "location": "Kolkata, West Bengal",
+        "rating": 4.5,
+        "phone": "+91-9876543211",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Hema Narayanan",
+        "specialization": "Eye Specialist",
+        "experience": "10 years",
+        "hospital": "VisionPlus Eye Hospital",
+        "location": "Bangalore, Karnataka",
+        "rating": 4.3,
+        "phone": "+91-9876543212",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Archana Gupta",
+        "specialization": "Gynaecologist & Obstetrician",
+        "experience": "18 years",
+        "hospital": "Motherhood Maternity Hospital",
+        "location": "Delhi, India",
+        "rating": 4.8,
+        "phone": "+91-9876543213",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Niranjan Reddy",
+        "specialization": "Neurologist",
+        "experience": "19 years",
+        "hospital": "NeuroCare Hospital",
+        "location": "Hyderabad, Telangana",
+        "rating": 4.7,
+        "phone": "+91-9876543214",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Vandana Tripathi",
+        "specialization": "On Call Doctor",
+        "experience": "6 years",
+        "hospital": "TeleHealth Clinic",
+        "location": "Remote Services (Pan India)",
+        "rating": 4.4,
+        "phone": "+91-9876543215",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Arpit Sharma",
+        "specialization": "Paediatrician",
+        "experience": "12 years",
+        "hospital": "Bright Future Children's Hospital",
+        "location": "Ahmedabad, Gujarat",
+        "rating": 4.6,
+        "phone": "+91-9876543216",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Gaurav Saxena",
+        "specialization": "Piles Doctor",
+        "experience": "9 years",
+        "hospital": "Relief Piles Clinic",
+        "location": "Lucknow, Uttar Pradesh",
+        "rating": 4.2,
+        "phone": "+91-9876543217",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Tanya Bajpai",
+        "specialization": "Sexologist",
+        "experience": "8 years",
+        "hospital": "Wellness Sexology Clinic",
+        "location": "Mumbai, Maharashtra",
+        "rating": 4.5,
+        "phone": "+91-9876543218",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Akash Verma",
+        "specialization": "Speech Therapist",
+        "experience": "7 years",
+        "hospital": "ClearVoice Speech Therapy Centre",
+        "location": "Delhi, India",
+        "rating": 4.3,
+        "phone": "+91-9876543219",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Farhan Ali",
+        "specialization": "Unani Doctor",
+        "experience": "15 years",
+        "hospital": "Tibb-e-Nabvi Unani Clinic",
+        "location": "Hyderabad, Telangana",
+        "rating": 4.6,
+        "phone": "+91-9876543220",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Neeta Joshi",
+        "specialization": "Veterinary Doctor",
+        "experience": "9 years",
+        "hospital": "Happy Paws Pet Clinic",
+        "location": "Pune, Maharashtra",
+        "rating": 4.7,
+        "phone": "+91-9876543221",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Sanjay Nair",
+        "specialization": "Cardiologist",
+        "experience": "22 years",
+        "hospital": "Fortis Heart Institute",
+        "location": "Mumbai, Maharashtra",
+        "rating": 4.9,
+        "phone": "+91-9876543222",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Aftab Alam Ansari",
+        "specialization": "Gastroenterologist",
+        "experience": "17 years",
+        "hospital": "HCG Abdur Razzaque Ansari Cancer Centre",
+        "location": "Ranchi, Jharkhand",
+        "rating": 4.5,
+        "phone": "+91-9876543223",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Prince Gupta",
+        "specialization": "Gastroenterologist",
+        "experience": "8 years",
+        "hospital": "HCG Abdur Razzaque Ansari Cancer Centre",
+        "location": "Ranchi, Jharkhand",
+        "rating": 4.2,
+        "phone": "+91-9876543224",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Ganesh Agarwal",
+        "specialization": "Gastroenterologist",
+        "experience": "8 years",
+        "hospital": "HCG Abdur Razzaque Ansari Cancer Centre",
+        "location": "Ranchi, Jharkhand",
+        "rating": 4.3,
+        "phone": "+91-9876543225",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Ganesh Agarwal",
+        "specialization": "Dietitian",
+        "experience": "8 years",
+        "hospital": "HCG Abdur Razzaque Ansari Cancer Centre",
+        "location": "Ranchi, Jharkhand",
+        "rating": 4.1,
+        "phone": "+91-9876543226",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Neeru Jyotsna",
+        "specialization": "Dietitian",
+        "experience": "5 years",
+        "hospital": "HCG Abdur Razzaque Ansari Cancer Centre",
+        "location": "Ranchi, Jharkhand",
+        "rating": 4.0,
+        "phone": "+91-9876543227",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Dr. Bharti Kashyap",
+        "specialization": "Dietitians",
+        "experience": "30+ years",
+        "hospital": "Kashyap Memorial Eye Hospital",
+        "location": "Ranchi, Jharkhand",
+        "rating": 4.8,
+        "phone": "9876543210",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Rajesh Kumar",
+        "specialization": "Dietitians",
+        "experience": "15+ years",
+        "hospital": "RIMS Ranchi",
+        "location": "Ranchi, Jharkhand",
+        "rating": 4.5,
+        "phone": "9876543211",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Ajay Kumar",
+        "specialization": "Dietitians",
+        "experience": "20+ years",
+        "hospital": "Medanta Hospital",
+        "location": "Ranchi, Jharkhand",
+        "rating": 4.6,
+        "phone": "9876543212",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Anupama Sinha",
+        "specialization": "Dietitians",
+        "experience": "18+ years",
+        "hospital": "Santevita Hospital",
+        "location": "Ranchi, Jharkhand",
+        "rating": 4.7,
+        "phone": "9876543213",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Neeru Jyotsna",
+        "specialization": "Dietitians",
+        "experience": "5 years",
+        "hospital": "HCG Abdur Razzaque Ansari Cancer Centre",
+        "location": "Ranchi, Jharkhand",
+        "rating": 4.2,
+        "phone": "9876543214",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Anjali Mehta",
+        "specialization": "Psychiatrist",
+        "experience": "15 years",
+        "hospital": "MindCare Psychiatry Hospital",
+        "location": "Delhi, India",
+        "rating": 4.9,
+        "phone": "9876543215",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Sameer Deshmukh",
+        "specialization": "Psychiatrist",
+        "experience": "12 years",
+        "hospital": "Serene Mind Clinic",
+        "location": "Pune, Maharashtra",
+        "rating": 4.6,
+        "phone": "9876543216",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Priya Nair",
+        "specialization": "Psychiatrist",
+        "experience": "10 years",
+        "hospital": "Harmony Mental Health Center",
+        "location": "Bangalore, Karnataka",
+        "rating": 4.3,
+        "phone": "9876543217",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Arvind Tiwari",
+        "specialization": "Psychiatrist",
+        "experience": "18 years",
+        "hospital": "Hope Psychiatry Hospital",
+        "location": "Lucknow, Uttar Pradesh",
+        "rating": 4.8,
+        "phone": "9876543218",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Sangeeta Rao",
+        "specialization": "Psychiatrist",
+        "experience": "9 years",
+        "hospital": "Peace of Mind Clinic",
+        "location": "Hyderabad, Telangana",
+        "rating": 4.5,
+        "phone": "9876543219",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Manish Kapoor",
+        "specialization": "Psychiatrist",
+        "experience": "14 years",
+        "hospital": "NeuroMind Psychiatry Hospital",
+        "location": "Mumbai, Maharashtra",
+        "rating": 4.7,
+        "phone": "9876543220",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Kavita Sharma",
+        "specialization": "Psychiatrist",
+        "experience": "11 years",
+        "hospital": "Tranquil Minds Clinic",
+        "location": "Jaipur, Rajasthan",
+        "rating": 4.4,
+        "phone": "9876543221",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Ramesh Iyer",
+        "specialization": "Psychiatrist",
+        "experience": "16 years",
+        "hospital": "MindHealer Psychiatry Center",
+        "location": "Chennai, Tamil Nadu",
+        "rating": 4.6,
+        "phone": "9876543222",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Pooja Banerjee",
+        "specialization": "Psychiatrist",
+        "experience": "8 years",
+        "hospital": "CalmCare Psychiatry Clinic",
+        "location": "Kolkata, West Bengal",
+        "rating": 4.3,
+        "phone": "9876543223",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Alok Mishra",
+        "specialization": "Psychiatrist",
+        "experience": "13 years",
+        "hospital": "Serenity Mind Clinic",
+        "location": "Patna, Bihar",
+        "rating": 4.5,
+        "phone": "9876543224",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Rajesh Khanna",
+        "specialization": "Neurosurgeon",
+        "experience": "20 years",
+        "hospital": "NeuroCare Hospital",
+        "location": "Delhi, India",
+        "rating": 4.9,
+        "phone": "9876543225",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Shalini Verma",
+        "specialization": "Neurosurgeon",
+        "experience": "15 years",
+        "hospital": "Brain & Spine Center",
+        "location": "Mumbai, Maharashtra",
+        "rating": 4.7,
+        "phone": "9876543226",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Arvind Menon",
+        "specialization": "Neurosurgeon",
+        "experience": "18 years",
+        "hospital": "Global Neuro Hospital",
+        "location": "Bangalore, Karnataka",
+        "rating": 4.8,
+        "phone": "9876543227",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "name": "Dr. Priya Mishra",
+        "specialization": "Neurosurgeon",
+        "experience": "12 years",
+        "hospital": "Advanced Brain Institute",
+        "location": "Chennai, Tamil Nadu",
+        "rating": 4.6,
+        "phone": "9876543228",
+        "image": "https://via.placeholder.com/100"
+    }
+    
+]
