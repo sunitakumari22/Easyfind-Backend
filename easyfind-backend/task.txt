@@ -92,3 +92,85 @@
 
 
 // app.listen(PORT,()=>console.log(`server Started at port:${PORT}`))
+
+
+
+
+
+index.js
+const dbConnect=require('./mongodb') 
+
+
+// first step to handle promises
+ dbConnect().then((resp)=>{
+    resp.find({}).toArray().then((data)=>{
+        console.log(data)
+    })
+ })
+
+//  second step to handle promises
+// const main= async()=>{
+//     console.log("main function called");
+//     let data=  await dbConnect();
+//     data= await data.find().toArray();
+//     console.warn(data);   
+    
+// }
+// main();
+
+
+
+
+api.js
+const express = require('express');
+const dbConnect = require('./mongodb')
+const app = express();
+const { ObjectId } = require('mongodb');
+
+
+app.use(express.json())
+
+app.get('/', async (req, res) => {
+    let data =await dbConnect();
+    data= await data.find().toArray();
+    console.log(data)
+    res.send(data)
+})
+
+app.post('/', async  (req, res) => {
+    console.log(req.body)
+    let data= await dbConnect();
+    let result= await data.insertOne(req.body);
+    res.send(result)
+})
+app.put('/:name', async  (req, res) => {
+    let data =await dbConnect();
+    let result= await data.updateOne(
+        { name:req.params.name},
+        {$set:req.body}
+    )
+    res.send("result coming");
+})
+app.delete('/:id', async (req, res) => {
+    console.log(req.params.id);
+    const data = await dbConnect();
+    let result = await data.deleteOne({ _id: new ObjectId(req.params.id) }); 
+    res.send(result);
+});
+app.listen(5000);
+
+mongo db.js
+
+const {MongoClient} =require('mongodb');
+const url='mongodb://localhost:27017';
+const database='easyfind-backend'
+
+const client= new MongoClient(url);
+
+ async function dbConnect(){
+    let result =await client.connect();
+    let db =result.db(database);
+    return db.collection('users');
+ 
+}
+module.exports= dbConnect;

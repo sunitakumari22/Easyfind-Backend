@@ -1,20 +1,28 @@
-const dbConnect=require('./mongodb') 
+// const dbConnect=require('./mongodb') 
 
 
-// first step to handle promises
- dbConnect().then((resp)=>{
-    resp.find({}).toArray().then((data)=>{
-        console.log(data)
-    })
- })
+// // first step to handle promises
+//  dbConnect().then((resp)=>{
+//     resp.find({}).toArray().then((data)=>{
+//         console.log(data)
+//     })
+//  })
 
-//  second step to handle promises
-// const main= async()=>{
-//     console.log("main function called");
-//     let data=  await dbConnect();
-//     data= await data.find().toArray();
-//     console.warn(data);   
+// //  second step to handle promises
+// // const main= async()=>{
+// //     console.log("main function called");
+// //     let data=  await dbConnect();
+// //     data= await data.find().toArray();
+// //     console.warn(data);   
     
-// }
-// main();
+// // }
+// // main();
+
+const mongoose=require('mongoose');
+
+const main= async()=>{
+    await mongoose.connect("mongodb://localhost:27017/easyfind-backend");
+     
+
+}
 
