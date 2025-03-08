@@ -3,6 +3,7 @@ require('./config');
 const cors = require('cors');
 const user=require('./users');
 const doctors=require('./doctors');
+const realstates=require('./realstate');
 
 const app=express();
 app.use(cors());
@@ -33,9 +34,6 @@ app.delete("/delete/:_id",async (req,res)=>{
 //     )
 //     res.send(result);
 // })
-
-
-
 app.post("/newDoctors",async (req,res)=>{
     let data=new doctors(req.body)
     let result= await data.save()
@@ -46,6 +44,19 @@ app.post("/newDoctors",async (req,res)=>{
 app.get("/api/doctorsList",async (req,res)=>{
     let data= await doctors.find();
     res.send(data);
+})
+app.post("/newRealState",async (req,res)=>{
+    let data=new realstates(req.body)
+    let result= await data.save()
+    console.log(req.body);    
+    res.send(req.body)
+})
+
+app.get("/api/realStateList",async (req,res)=>{
+    let data= await realstates.find();
+    res.send(data);
+    console .log("data",data)
+
 })
 app.listen(5000);
 
