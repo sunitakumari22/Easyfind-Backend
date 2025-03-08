@@ -1,8 +1,11 @@
 const express = require('express');
 require('./config');
+const cors = require('cors');
 const user=require('./users');
+const doctors=require('./doctors');
 
 const app=express();
+app.use(cors());
 app.use(express.json());
 
 app.post("/create",async (req,res)=>{
@@ -25,11 +28,25 @@ app.delete("/delete/:_id",async (req,res)=>{
 // app.put('/update/:_id', async  (req, res) => {
 //     console.log(req.params);
 //     let result= await data.updateOne(
-//         { _id:req.params._id},
+//         req.params,
 //         {$set:req.body}
 //     )
 //     res.send(result);
 // })
+
+
+
+app.post("/newDoctors",async (req,res)=>{
+    let data=new doctors(req.body)
+    let result= await data.save()
+    console.log(req.body);    
+    res.send(req.body)
+})
+
+app.get("/api/doctorsList",async (req,res)=>{
+    let data= await doctors.find();
+    res.send(data);
+})
 app.listen(5000);
 
 
