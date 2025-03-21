@@ -5,6 +5,7 @@ const user=require('./users');
 const doctors=require('./doctors');
 const realstates=require('./realstate');
 const hotels=require('./hotels')
+const restro=require('./restro')
 
 const app=express();
 app.use(cors());
@@ -93,6 +94,19 @@ app.get("/api/hotelList",async (req,res)=>{
 
 })
 // Api for Restaurants
+app.post("/api/newRestro",async (req,res)=>{
+    let data=new hotels(req.body)
+    let result= await data.save()
+    console.log(req.body);    
+    res.send(req.body)
+})
+
+app.get("/api/restroList",async (req,res)=>{
+    let data= await hotels.find();
+    res.send(data);
+    console .log("data1",data)
+
+})
 
 app.listen(5000);
 
