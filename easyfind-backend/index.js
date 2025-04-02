@@ -11,6 +11,11 @@ const restro=require('./restro')
 const app=express();
 app.use(cors());
 app.use(express.json());
+
+
+app.get("/", async (req, res) => {
+    res.send("EasyFind - Backend project Working Fine");
+});
 //  Api for users
 app.post("/create",async (req,res)=>{
     let data=new user(req.body)
