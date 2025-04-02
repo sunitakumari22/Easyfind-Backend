@@ -1,1 +1,90 @@
-{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/api" }] }
+{
+    "version":2,
+    "builds":[{"src":"./index.js","use":"@vercel/node"}],
+    "routes": [
+        {
+            "src": "/create",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/list/:email/:password",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/delete/:_id",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/newDoctors",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/doctorsList",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/newRealState",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/realStateList",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/newHotels",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/hotelList",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/doctorsList",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/newRealState",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/realStateList",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/newHotels",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/hotelList",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/doctorsList",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/newRealState",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/realStateList",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/newHotels",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/hotelList",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/newRestro",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/restroList",
+            "dest": "/index.js"
+        }
+    ]
+}
