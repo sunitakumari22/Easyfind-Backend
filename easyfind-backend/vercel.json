@@ -15,8 +15,8 @@
             "dest": "/index.js"
         },
         {
-            "src": "/api/adminList/:email/:password",
-            "dest": "/index.js"
+            "src": "/api/adminList/(.*)/(.*)", 
+            "dest": "/api/index.js"
         },
         {
             "src": "/list/:email/:password",
