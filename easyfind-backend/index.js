@@ -43,6 +43,25 @@ app.get("/list/:email/:password", async (req, res) => {
     }
 });
 
+app.get("/adminList",async (req,res)=>{
+    let data= await user.find();
+    res.send(data);
+})
+app.get("/adminList/:email/:password", async (req, res) => {
+    const { email, password } = req.params;
+
+    try {
+        let data = await user.findOne({ email: email, password: password });
+        if (data) {
+            res.send(data);
+        } else {
+            res.status(404).send({ message: "User not found" });
+        }
+    } catch (error) {
+        res.status(500).send({ message: "Internal Server Error", error: error.message });
+    }
+});
+
 app.delete("/delete/:_id",async (req,res)=>{
     console.log(req.params);
     let data= await user.deleteOne(req.params);

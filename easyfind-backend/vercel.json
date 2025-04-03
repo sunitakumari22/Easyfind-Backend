@@ -7,6 +7,14 @@
             "dest": "/index.js"
         },
         {
+            "src": "/adminList",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/adminList/:email/:password",
+            "dest": "/index.js"
+        },
+        {
             "src": "/list/:email/:password",
             "dest": "/index.js"
         },
