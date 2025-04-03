@@ -7,11 +7,15 @@
             "dest": "/index.js"
         },
         {
-            "src": "/adminList",
+            "src": "/api/adminList",
             "dest": "/index.js"
         },
         {
-            "src": "/adminList/:email/:password",
+            "src": "/api/newAdmin",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/api/adminList/:email/:password",
             "dest": "/index.js"
         },
         {
