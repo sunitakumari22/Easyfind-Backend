@@ -43,11 +43,11 @@ app.get("/list/:email/:password", async (req, res) => {
     }
 });
 
-app.get("/adminList",async (req,res)=>{
+app.get("/api/adminList",async (req,res)=>{
     let data= await user.find();
     res.send(data);
 })
-app.get("/adminList/:email/:password", async (req, res) => {
+app.get("/api/adminList/:email/:password", async (req, res) => {
     const { email, password } = req.params;
 
     try {
@@ -61,6 +61,12 @@ app.get("/adminList/:email/:password", async (req, res) => {
         res.status(500).send({ message: "Internal Server Error", error: error.message });
     }
 });
+app.post("/api/newAdmin",async (req,res)=>{
+    let data=new user(req.body)
+    let result= await data.save()
+    console.log(req.body);    
+    res.send(req.body)
+})
 
 app.delete("/delete/:_id",async (req,res)=>{
     console.log(req.params);
